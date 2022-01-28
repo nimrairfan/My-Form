@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient( #ee9ca7, #ffdde1);
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size: cover;
+    width: 100%;
+}
+.signup-div{
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    padding: 20px 10px ;
+    min-height: 0%;
+}
+.banner{
+    margin: 0 35%;
+}
+input{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid palevioletred;
+    border-radius: 10px;
+
+}
+input:hover{
+    transform: scale(1.1);
+}
+h3{
+    color: brown;
+    font-style: italic;
+}
+#facbook-btn{
+    color: white;
+    padding: 10px 20px;
+    font-size: medium;
+    background-color: #10649c;
+    border: none;
+    margin-bottom: 10px;
+}
+#instagram-btn{
+    color: white;
+    padding: 10px ;
+    font-size: medium;
+    background-color: #af1032;
+    border: none;
+}
+/* @media screen and (min-width: 768px){
+    input{
+        width: 80%;
+    }
+    .paradiv{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 425px){
+    .signup-div{
+        width: 100%;
+    }
+    .banner{
+        width: 50%;
+        margin: 0 25%;
+    }
+} */
